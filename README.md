@@ -1,15 +1,15 @@
-# Thermoelectric Transport Analysis Guide
+# Introduction to the Effective Mass Model for Thermoelectric Transport Analysis
 
-This is an interactive notebook-based guide to understanding thermoelectric transport in semiconductors, using the effective mass model.
+This repository contains a Jupyter notebook implementing the **effective mass model** for computing key thermoelectric transport properties.
 
-## 🚀 Run Online
+Both **single parabolic band (SPB)** and **two-band** models are disscussed.
 
-- [Open in Google Colab](https://colab.research.google.com/github/your-username/thermoelectric-guide/blob/main/notebooks/01_effective_mass_model.ipynb)
-- [Launch in Binder](https://mybinder.org/v2/gh/your-username/thermoelectric-guide/HEAD)
+### 📗 Notebook preview
 
-## 📂 Contents
+View the notebook via [nbviewer](https://nbviewer.org/):  
+[![View in nbviewer](https://img.shields.io/badge/View%20Notebook-nbviewer-blue?logo=jupyter)](https://nbviewer.org/github/YOUR_USERNAME/YOUR_REPOSITORY/blob/main/effective_mass_model.ipynb)
 
-- Effective Mass Model
-- Fermi integrals
-- Carrier concentration
-- Seebeck coefficient derivation
+### 📦 Requirements
+
+```bash
+pip install numpy scipy matplotlib pandas fdint
